@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&zm1u-ss)0s5+*bb*1!b8s!s*2ja92qx#sd@r*8k=@58bi_m5g'
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["ecommerce-vemora-backend.onrender.com","127.0.0.1","localhost"]
 
 
 # Application definition

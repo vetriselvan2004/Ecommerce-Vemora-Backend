@@ -94,6 +94,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+
 ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
@@ -113,6 +115,12 @@ TEMPLATES = [
         },
     },
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://localhost:5174",
+]
+
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
